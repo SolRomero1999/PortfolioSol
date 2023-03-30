@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!--BARRA DE INICIO--> 
+    <header>
+      <h1>Sol Romero</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#mis-artístas-favoritos">Mis artístas favoritos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--INICIO--> 
+    <main>
+      <section>
+        <h2>Bienvenido a mi Portfolio</h2>
+        <p>En este sitio web podrás conocer más sobre mí y mis gustos.</p>
+      </section>
+
+    <!--SOBRE MI--> 
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <div style="display: flex;">
+
+        <div> 
+          <p style="text-align: justify; align-self: center;">Soy una estudiante de 23 años de la Licenciatura en Producción de Videojuegos en la 
+            Universidad Nacional de Rafaela. Me gusta compartir tiempo con mis gatos, disfruto mucho de su compañía y soy algo sensible
+             siempre que haya animales de por medio. La música es otra de mis pasiones, no puedo estar sin escucharla y me 
+             interesaría algún día aprender a tocar algún instrumento. Además, soy una persona comprometida con la comunidad, 
+             siendo miembro del club de servicio a la comunidad Rotaract Rafaela, donde trabajo junto con otras personas para hacer 
+             una diferencia positiva en la vida de los demás.
+          </p>
+        </div>
+
+        <img src="../Elements/Perfil.jpeg" alt="foto de perfil" width="250px" 
+        style="margin-left: 50px;"> 
+
+      </div>
+    </section>
+
+    <!--ARTISTAS DE MI INTERES--> 
+    <section id="mis-artístas-favoritos">
+      <h2>Mis artistas favoritos</h2>
+      <div style="display: flex;">
+        <img src="../Elements/sk.jpg" alt="stray kids" width="400px" style="margin-right: 50px;">
+        <div style="text-align: justify; align-self: center;">        
+          <h3>Stray Kids</h3>
+          <p>
+            Es un grupo masculino de K-pop formado por JYP Entertainment en 2018.
+          </p>
+          <p>
+            Comence a seguirlos luego del lanzamiento de God’s Menu en 2020 y desde 
+            entonces son mi grupo favorito.
+          </p>
+        </div>
+      </div>
+      
+
+      <div style="display: flex;">
+        <div style="text-align: justify; align-self: center;">
+          <h3>EXO</h3>
+          <p>
+            Es un grupo masculino de K-pop formado por Sm Entertainment en 2012.
+          </p>
+          <p>
+            Comence a seguirlos luego del lanzamiento de Tempo en 2018, enamorandome de sus voces y comenzando a seguir también a EXO-CBX, la subunidad vocal del grupo.
+          </p>
+        </div> 
+        <img src="../Elements/exo.jpeg" alt="exo" width="400px" style="margin-left: 50px;">
+      </div>
+
+
+      <div style="display: flex;">
+        <img src="../Elements/suju.jpg" alt="super junior" width="400px" style="margin-right: 50px;">
+        <div style="text-align: justify; align-self: center;">
+          <h3>Super Junior</h3>
+          <p>
+            Es un grupo masculino de K-pop formado por Sm Entertainment en 2005.
+          </p>
+          <p>
+            Comence a seguirlos luego del lanzamiento de Black Suit en 2017, aunque ya me gustaba desde antes ver a algunos de los miembros como MC en diferentes programas.
+            También fue el primer grupo del que quisé asistir a un concierto, ya que son los únicos que tenían planeado venir a Argentina, pero debido a la pandemia el concierto se cancelo y sigo esperando por poder verlos.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--CONTACTO-->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+  <!--DERECHOS-->
+  </main>
+  <footer>
+    <p>Derechos reservados &copy; Sol Romero 2023</p>
+  </footer>
+
+  </body>
+</html>
