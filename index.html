@@ -1,135 +1,213 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
-    <meta charset="UTF-8">
-    <title>Mi Portfolio</title>
-    <link rel="stylesheet" href="./Assets/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sol Romero | Desarrolladora de Videojuegos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
-    <!--BARRA DE INICIO--> 
     <header>
-      <h1>Sol Romero</h1>
-      <nav>
-        <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#sobre-mi">Sobre mí</a></li>
-          <li><a href="#mis-artístas-favoritos">Mis artístas favoritos</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
-      </nav>
+      <div class="header-container">
+        <h1>Sol Romero</h1>
+        <nav>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <!--INICIO--> 
     <main>
-      <section>
-        <h2>Bienvenido a mi Portfolio</h2>
-        <p>En este sitio web podrás conocer más sobre mí y mis gustos.</p>
+      <!-- INICIO -->
+      <section id="inicio" class="section">
+        <div class="intro">
+          <img src="./Elements/avatar.png" alt="Sol Romero - Desarrolladora de Videojuegos" class="avatar" />
+          <div class="intro-content">
+            <h2>¡Hola! Soy Sol Romero</h2>
+            <p>Desarrolladora de videojuegos especializada en Unity y Phaser, apasionada por contar historias interactivas y crear experiencias únicas que conecten con los jugadores.</p>
+            <p>Actualmente estudiante de la Licenciatura en Producción de Videojuegos en la Universidad Nacional de Rafaela.</p>
+          </div>
+        </div>
       </section>
 
-    <!--SOBRE MI--> 
-    <section id="sobre-mi">
-      <h2>Sobre mí</h2>
-      <div style="display: flex;">
-
-        <div> 
-          <p style="text-align: justify; align-self: center;">Soy una estudiante de 23 años de la Licenciatura en Producción de Videojuegos en la 
-            Universidad Nacional de Rafaela aunque anteriormente estuve en el Profesorado de Matemáticas del Instituto Superior de Profesorado, 
-            pero me di cuenta que no era lo mio y queria crear algo propio que los demás puedan disfrutar y si bien no soy una jugadora muy activa
-             me hace ilusión el poder crear mis propios videojuegos y contar diferentes historias mediante los mismos.
-          </p>
-          <p style="text-align: justify; align-self: center;">
-            Además, soy una persona comprometida con la comunidad, con interés por ayudar a los demás, por este motivo en el 2022 me uní a Rotaract Rafaela,
-            una organización sin ánimo de lucro, dedicada a desarrollar el liderazgo de sus socios, fomentar la amistad y brindar servicio a 
-            la comunidad mediante diversos proyectos, donde mi función, además de ser un socio activo, es ser la Tesorera y Directora del Comite de Desarrollo Profesional 
-            y el Comite de Finanzas. 
-          </p>
-          <p style="text-align: justify; align-self: center;">
-            Por otra parte amo a los animales, escuchar música, ayudar y enseñar a los demás. 
-          </p>
+      <!-- SOBRE MI -->
+      <section id="sobre-mi" class="section">
+        <h2 class="section-title">Sobre mí</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>Soy una desarrolladora de videojuegos con enfoque en la creación de experiencias significativas. Mi objetivo es diseñar juegos que no solo entretengan, sino que también inspiren emociones y reflexiones en los jugadores.</p>
+            <p>Además de mi formación académica, forme parte activa de Rotaract Rafaela, donde ocupe los cargos de Tesorera y fuí parte del cómite de Desarrollo Profesional y Finanzas. Esta experiencia me ha permitido desarrollar habilidades de liderazgo, trabajo en equipo y gestión de proyectos.</p>
+            <p>Creo firmemente en el poder de los videojuegos como medio de expresión artística y herramienta para contar historias impactantes. Mi enfoque combina la técnica con la narrativa para crear experiencias memorables.</p>
+          </div>
+          <div class="skills">
+            <h3>Mis habilidades</h3>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>Unity</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>Phaser</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>Diseño de Juegos</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>Programación C#</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>JavaScript</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <img src="../PortfolioSol/Elements/Perfil.jpeg" alt="foto de perfil" width="300px" style="margin-left: 50px;"> 
+      <!-- PROYECTOS -->
+      <section id="proyectos" class="section">
+        <h2 class="section-title">Mis Proyectos</h2>
+        
+        <div class="projects-container">
+          <!-- Carrusel Unity -->
+          <h3 class="carousel-title">Juegos desarrollados con Unity</h3>
+          <div class="carousel">
+            <div class="project-card">
+              <img src="./Elements/unity_racing.png" alt="Racing World Competition" class="project-image" />
+              <div class="project-info">
+                <h4>Racing World Competition</h4>
+                <p>Juego de carreras 1v1 o single player.</p>
+                <p>Desarrollado en 5 meses.</p>
+                <a href="https://alain-gerfauo.itch.io/racing-wolrd-competition" target="_blank" class="project-link">Ver proyecto</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="./Elements/unity_trivia.png" alt="Mente Maestra" class="project-image" />
+              <div class="project-info">
+                <h4>Mente Maestra</h4>
+                <p>Juego de trivia.</p>
+                <p>Desarrollado en 2 semanas.</p>
+                <a href="https://solromero.itch.io/mente-maestra" target="_blank" class="project-link">Ver proyecto</a>
+              </div>
+            </div>
+            <!-- Puedes agregar más proyectos de Unity aquí -->
+          </div>
 
-      </div>
-    </section>
+          <!-- Carrusel Phaser -->
+          <h3 class="carousel-title">Juegos desarrollados con Phaser</h3>
+          <div class="carousel">
+            <div class="project-card">
+              <img src="./Elements/phaser_gula.png" alt="Gula" class="project-image" />
+              <div class="project-info">
+                <h4>Gula</h4>
+                <p>Juego creado en una jam donde encarnas a Miao Mao, un gato streamer de mukbang.</p>
+                <p>Desarrollado en 2 semanas.</p>
+                <a href="https://sawkhe.itch.io/gula" target="_blank" class="project-link">Ver proyecto</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="./Elements/phaser_jhonny.png" alt="Jhonny the Turtle" class="project-image" />
+              <div class="project-info">
+                <h4>Jhonny the Turtle</h4>
+                <p>Aventura de plataformas donde debes rescatar a tus amigos y escapar de la isla.</p>
+                <p>Desarrolado en 3 meses.</p>
+                <a href="https://johnnytheturtle.netlify.app/" target="_blank" class="project-link">Ver proyecto</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="./Elements/phaser_sombras.png" alt="Sombras Acechantes" class="project-image" />
+              <div class="project-info">
+                <h4>Sombras Acechantes</h4>
+                <p>Ayuda a Lumiere a escapar de las minas. Juego de puzzles con mecánica de iluminación única.</p>
+                <p>Desarrollado en 1 mes</p>
+                <a href="https://solromero1999.github.io/SombrasAcechantes/" target="_blank" class="project-link">Ver proyecto</a>
+              </div>
+            </div>
+          </div>
 
-    <!--ARTISTAS DE MI INTERES--> 
-    <section id="mis-artístas-favoritos">
-      <h2>Mis artistas favoritos</h2>
-      <div style="display: flex;">
-        <img src="../PortfolioSol/Elements/sk.jpg" alt="stray kids" width="400px" style="margin-right: 50px;">
-        <div style="text-align: justify; align-self: center;">        
-          <h3>Stray Kids</h3>
-          <p>
-            Es un grupo masculino de K-pop formado por JYP Entertainment en 2018.
-          </p>
-          <p>
-            Comence a seguirlos luego del lanzamiento de God’s Menu en 2020 y desde 
-            entonces son mi grupo favorito.
-          </p>
+          <!-- Carrusel Game Jams -->
+          <h3 class="carousel-title">Proyectos de Game Jams</h3>
+          <div class="carousel">
+            <div class="project-card">
+              <img src="./Elements/phaser_gula.png" alt="Gula" class="project-image" />
+              <div class="project-info">
+                <h4>Gula</h4>
+                <p>Miao Mao se enfrenta a su propio apetito en este juego de decisiones rápidas.</p>
+                <a href="https://sawkhe.itch.io/gula" target="_blank" class="project-link">Ver proyecto</a>
+              </div>
+            </div>
+            <!-- Puedes agregar más proyectos de Game Jams aquí -->
+          </div>
         </div>
-      </div>
-      
+      </section>
 
-      <div style="display: flex;">
-        <div style="text-align: justify; align-self: center;">
-          <h3>EXO</h3>
-          <p>
-            Es un grupo masculino de K-pop formado por Sm Entertainment en 2012.
-          </p>
-          <p>
-            Comence a seguirlos luego del lanzamiento de Tempo en 2018, enamorandome de sus voces y comenzando a seguir también a EXO-CBX, la subunidad vocal del grupo.
-          </p>
-        </div> 
-        <img src="../PortfolioSol/Elements/exo.jpeg" alt="exo" width="400px" style="margin-left: 50px;">
-      </div>
-
-
-      <div style="display: flex;">
-        <img src="../PortfolioSol/Elements/suju.jpg" alt="super junior" width="400px" style="margin-right: 50px;">
-        <div style="text-align: justify; align-self: center;">
-          <h3>Super Junior</h3>
-          <p>
-            Es un grupo masculino de K-pop formado por Sm Entertainment en 2005.
-          </p>
-          <p>
-            Comence a seguirlos luego del lanzamiento de Black Suit en 2017, aunque ya me gustaba desde antes ver a algunos de los miembros como MC en diferentes programas.
-          </p>
-          <p>
-            También fue el primer grupo del que quisé asistir a un concierto, ya que son los únicos que tenían planeado venir a Argentina, pero debido a la pandemia el concierto se cancelo y sigo esperando por poder verlos.
-          </p>
+      <!-- CONTACTO -->
+      <section id="contacto" class="section">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <p>Si estás interesado en mi trabajo, quieres colaborar en un proyecto o simplemente hablar sobre desarrollo de videojuegos, no dudes en contactarme.</p>
+            <p>Estoy abierta a oportunidades laborales, proyectos freelance y colaboraciones creativas.</p>
+          </div>
+          <div class="contact-links">
+            <a href="https://github.com/SolRomero1999" target="_blank" class="contact-link">
+              <i class="fab fa-github"></i> GitHub /SolRomero1999
+            </a>
+            <a href="https://x.com/Sawkhe99" target="_blank" class="contact-link">
+              <i class="fab fa-twitter"></i> Twitter @Sawkhe99
+            </a>
+            <a href="mailto:solromero051099@gmail.com" class="contact-link">
+              <i class="fas fa-envelope"></i> solromero051099@gmail.com
+            </a>
+          </div>
         </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-links">
+          <a href="#inicio">Inicio</a>
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+        <p>&copy; 2025 Sol Romero. Todos los derechos reservados.</p>
       </div>
-    </section>
-
-    <!--CONTACTO-->
-    <section id="contacto">
-      <div class="redes-sociales">
-        <a href="https://github.com/SolRomero1999"><i class="fab fa-github"></i></a>
-        <a href="https://www.instagram.com/sawky_99/"><i class="fab fa-instagram"></i></a>
-        <a href="mailto: solromero051099@gmail.com"><i class="fas fa-envelope"></i></a>
-      </div>
-
-      <form action="https://github.com/SolRomero1999" method="get">
-        <button type="submit"><i class="fab fa-github"></i> Ir a GitHub</button>
-      </form>
-      
-      <form action="https://www.instagram.com/sawky_99/" method="get">
-        <button type="submit"><i class="fab fa-instagram"></i> Ir a Instagram</button>
-      </form>
-      
-      <form action="mailto: solromero051099@gmail.com" method="post">
-        <button type="submit"><i class="fas fa-envelope"></i> Enviar correo electrónico</button>
-      </form>
-      
-    </section>
-
-  <!--DERECHOS-->
-  </main>
-  <footer>
-    <p>Derechos reservados &copy; Sol Romero 2023</p>
-  </footer>
-
+    </footer>
   </body>
 </html>
